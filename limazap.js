@@ -41,7 +41,7 @@ app.post('/api/message', (req, res) => {
   const { number, message } = req.body;
 
 const isGroup = (number) => {
-  return number.toString().startsWith('55') && number.toString().length === 12;
+  return number.toString().startsWith('55') && number.toString().length === 13;
 };
 
 const getCurrentTime = () => {

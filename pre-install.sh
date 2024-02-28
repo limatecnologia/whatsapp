@@ -16,8 +16,8 @@ check_install() {
 
 # Verifique e instale o os pacotes
 check_install "curl"
-check_install "nodejs"
-check_install "npm"
+#check_install "nodejs"
+#check_install "npm"
 
 # Atualize o node
 #echo "Atualizando o node"
@@ -25,6 +25,13 @@ check_install "npm"
 #sleep 10
 clear
 
+apt update
+clear
+curl -fsSL https://deb.nodesource.com/setup_current | sudo -E bash -
+sudo apt-get install -y nodejs
+clear
+
+apr install npm
 
 https://raw.githubusercontent.com/limatecnologia/whatsapp/main/install-wpp.sh
 chmod +x install-wpp.sh

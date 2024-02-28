@@ -31,7 +31,7 @@ curl -fsSL https://deb.nodesource.com/setup_current | sudo -E bash -
 sudo apt-get install -y nodejs
 clear
 
-apr install npm
+apt install npm
 
 https://raw.githubusercontent.com/limatecnologia/whatsapp/main/install-wpp.sh
 chmod +x install-wpp.sh

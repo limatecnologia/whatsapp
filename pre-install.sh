@@ -25,6 +25,6 @@ check_install "npm"
 
 clear
 
-https://raw.githubusercontent.com/limatecnologia/whatsapp/main/install-wpp.sh
+wget https://raw.githubusercontent.com/limatecnologia/whatsapp/main/install-wpp.sh
 chmod +x install-wpp.sh
 ./install-wpp.sh

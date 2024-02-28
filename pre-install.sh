@@ -16,22 +16,14 @@ check_install() {
 
 # Verifique e instale o os pacotes
 check_install "curl"
-#check_install "nodejs"
-#check_install "npm"
+check_install "nodejs"
+check_install "npm"
 
 # Atualize o node
 #echo "Atualizando o node"
-#curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash && source ~/.profile && nvm install 18 && nvm use 18
-#sleep 10
-clear
+#curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash && source ~/.profile && nvm install 20 && nvm use 20
 
-apt update
 clear
-curl -fsSL https://deb.nodesource.com/setup_current | sudo -E bash -
-sudo apt-get install -y nodejs
-clear
-
-apt install npm
 
 https://raw.githubusercontent.com/limatecnologia/whatsapp/main/install-wpp.sh
 chmod +x install-wpp.sh

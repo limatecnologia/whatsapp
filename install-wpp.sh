@@ -32,6 +32,7 @@ clear
 # Instale as bibliotecas necessárias
 check_install "build-essential"
 check_install "libgbm-dev"
+check_install "libasound2"
 
 # Baixe o Google Chrome se não existir
 chrome_deb_file="/opt/limazap/google-chrome-stable_current_amd64.deb"

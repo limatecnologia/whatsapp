@@ -3,7 +3,7 @@
 import requests
 import sys
 
-URL = "http://localhost:4040/api/message"
+URL = "http://zap.sermaistecnologia.com.br/api/message"
 PHONE = sys.argv[1]
 TITULO = sys.argv[2]
 MESSAGE = (TITULO + sys.argv[3]).replace("\\n", "\n")
